@@ -1,4 +1,4 @@
-# vim
+# .vim
 
 - github: [vim](https://github.com/vim/vim)
 - [:help](https://vimhelp.org/)
