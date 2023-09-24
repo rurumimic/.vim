@@ -1,5 +1,8 @@
 # Documentation
 
+- vimrc from scratch
+- [keymap](/docs/keymap.md)
+
 ## vimrc from scratch
 
 ```bash

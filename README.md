@@ -22,6 +22,7 @@ git clone https://github.com/rurumimic/.vim
 
 ## Documentation
 
-- [docs](docs/README.md)
+- [docs](/docs/README.md)
   - vimrc from scratch
+  - [keymap](/docs/keymap.md)
 
