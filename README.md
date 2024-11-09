@@ -8,7 +8,7 @@
 ```bash
 vim --verison
 
-VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Aug 18 2023 04:12:26)
+VIM - Vi IMproved 9.1 (2024 Jan 02, compiled Oct 15 2024 14:18:26)
 ```
 
 ### .vim
