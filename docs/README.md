@@ -12,11 +12,12 @@ vim --version
 ```
 
 ```bash
-VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Aug 18 2023 04:12:26)
+VIM - Vi IMproved 9.1 (2024 Jan 02, compiled Oct 15 2024 14:18:26)
 
-   system vimrc file: "$VIM/vimrc"
+   system vimrc file: "/etc/vimrc"
      user vimrc file: "$HOME/.vimrc"
  2nd user vimrc file: "~/.vim/vimrc"
+ 3rd user vimrc file: "~/.config/vim/vimrc"
       user exrc file: "$HOME/.exrc"
        defaults file: "$VIMRUNTIME/defaults.vim"
   fall-back for $VIM: "/usr/share/vim"
@@ -33,11 +34,19 @@ mkdir -p ~/.vim
 - :h [usr_01.txt](https://vimhelp.org/usr_01.txt.html)
 
 ```bash
-:echo $VIMRUNTIME # e.g., /usr/share/vim/vim82
+:echo $VIMRUNTIME # e.g., /usr/share/vim/vim91
 ```
 
 ```bash
 cp $VIMRUNTIME/vimrc_example.vim ~/.vim/vimrc
+cp $VIMRUNTIME/defaults.vim ~/.vim/defaults.vim
+```
+
+Edit `.vim/vimrc`:
+
+```bash
+-source $VIMRUNTIME/defaults.vim
++source $HOME/.vim/defaults.vim
 ```
 
 Check the settings:
