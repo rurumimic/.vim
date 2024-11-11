@@ -9,9 +9,48 @@
 ## Directory
 
 ```bash
+mkdir ~/.vim/autoload
 mkdir ~/.vim/pack
 mkdir ~/.vim/plugin
 ```
+
+## Plugin Manager
+
+### vim-plug
+
+- [junegunn/vim-plug](https://github.com/junegunn/vim-plug)
+- [commands](https://github.com/junegunn/vim-plug?tab=readme-ov-file#commands)
+
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+#### Add Plugins
+
+in `~/.vim/vimrc`
+
+```vim
+call plug#begin()
+
+" List your plugins here
+Plug 'tpope/vim-sensible'
+
+call plug#end()
+```
+
+#### Commands
+
+```vim
+:PlugInstall
+:PlugUpdate
+:PlugClean
+:PlugUpgrade
+:PlugStatus
+:PlugDiff
+```
+
+---
 
 ## Runtime files
 
