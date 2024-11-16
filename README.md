@@ -20,10 +20,24 @@ git clone https://github.com/rurumimic/.vim
 
 ---
 
+## Code
+
+- autoload/
+  - [plug.vim](autoload/plug.vim)
+- [defaults.vim](/defaults.vim)
+- docs/
+- [keymap.vim](/keymap.vim)
+- plugged/
+- README.md
+- [vimrc](/vimrc)
+
+---
+
 ## Documentation
 
 - [docs](/docs/README.md)
   - vimrc from scratch
+  - [install](/docs/install.md)
   - [keymap](/docs/keymap.md)
   - [starting](/docs/starting.md)
   - [packages and plugins](/docs/packages.md)

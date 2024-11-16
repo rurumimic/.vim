@@ -40,10 +40,10 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
+source $HOME/.vim/keymap.vim
+
 call plug#begin()
-
-" List your plugins here
 Plug 'tpope/vim-sensible'
-
+Plug 'preservim/nerdtree'
 call plug#end()
 

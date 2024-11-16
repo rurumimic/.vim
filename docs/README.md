@@ -1,6 +1,7 @@
 # Documentation
 
 - vimrc from scratch
+- [install](/docs/install.md)
 - [keymap](/docs/keymap.md)
 - [starting](/docs/starting.md)
 - [packages and plugins](/docs/packages.md)
