@@ -18,6 +18,12 @@ cd $HOME
 git clone https://github.com/rurumimic/.vim
 ```
 
+### Install Pluggins
+
+```bash
+vim +PlugStatus +PlugInstall +PlugUpdate
+```
+
 ---
 
 ## Code
