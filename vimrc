@@ -41,9 +41,5 @@ if has('syntax') && has('eval')
 endif
 
 source $HOME/.vim/keymap.vim
-
-call plug#begin()
-Plug 'tpope/vim-sensible'
-Plug 'preservim/nerdtree'
-call plug#end()
+source $HOME/.vim/plug.vim
 

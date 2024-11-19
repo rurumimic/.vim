@@ -10,8 +10,6 @@
 
 ```bash
 mkdir ~/.vim/autoload
-mkdir ~/.vim/pack
-mkdir ~/.vim/plugin
 ```
 
 ## Plugin Manager
@@ -28,7 +26,13 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 #### Add Plugins
 
-in `~/.vim/vimrc`
+##### ~/.vim/vimrc 
+
+```vim
+source $HOME/.vim/plug.vim
+```
+
+##### ~/.vim/plug.vim 
 
 ```vim
 call plug#begin()
