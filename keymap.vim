@@ -1,6 +1,9 @@
 " Key Mappings
 "
 " My Key Mapings
+" Clear Highlights
+nnoremap <ESC> <Cmd>noh<CR>
+
 " Jumping Around
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
