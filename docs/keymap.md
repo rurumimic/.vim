@@ -25,6 +25,10 @@ Edit: [~/.vim/keymap.vim](/keymap.vim)
 
 ## My Key Mappings
 
+### Clear Highlights
+
+- `ESC`: `:noh[lsearch]`
+
 ### Jumping Around
 
 #### Insert Mode
