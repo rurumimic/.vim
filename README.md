@@ -47,4 +47,5 @@ vim +PlugStatus +PlugInstall +PlugUpdate
   - [keymap](/docs/keymap.md)
   - [starting](/docs/starting.md)
   - [packages and plugins](/docs/packages.md)
+  - [autoload](docs/autoload.md)
 
