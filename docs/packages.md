@@ -43,6 +43,13 @@ Plug 'tpope/vim-sensible'
 call plug#end()
 ```
 
+#### Install Plugins
+
+```vim
+:source %
+:PlugInstall
+```
+
 #### Commands
 
 ```vim
