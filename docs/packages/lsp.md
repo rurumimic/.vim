@@ -47,3 +47,15 @@ augroup lsp_install
 augroup END
 ```
 
+## Usage
+
+```vim
+:LspStatus
+```
+
+```log
+Rust Language Server: running
+
+Press ENTER or type command to continue
+```
+
