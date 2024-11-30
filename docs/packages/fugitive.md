@@ -47,4 +47,5 @@ call plug#end()
   - ca: amend the last commit and edit the message
   - ce: amend the last commit and without editing the message
   - cw: reword the last commit
+- P: push
 
