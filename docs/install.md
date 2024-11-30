@@ -55,3 +55,37 @@ sudo make install
 vim --help
 ```
 
+---
+
+## Install with package managers
+
+### MacPorts
+
+- macports help: [reinstall clt](https://trac.macports.org/wiki/ProblemHotlist#reinstall-clt)
+- plugin: [prabirshrestha/vim-lsp](https://github.com/prabirshrestha/vim-lsp)
+
+> Certain bottlenecks in Vim script have been implemented in lua. If you would like to take advantage of these performance gains use vim compiled with lua or neovim v0.4.0+
+
+Install with lua version:
+
+```bash
+sudo port selfupdate
+sudo port clean vim
+sudo port install vim +lua
+```
+
+List installed:
+
+```bash
+sudo port echo installed | grep vim
+
+vim                            @9.1.0727_0+huge
+vim                            @9.1.0727_0+huge+lua
+```
+
+Activate with lua:
+
+```bash
+sudo port activate vim @9.1.0727_0+huge+lua
+```
+
