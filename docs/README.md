@@ -5,7 +5,8 @@
 - [defaults](defaults.md)
 - [keymap](keymap.md)
 - [starting](starting.md)
-- [packages and plugins](packages.md)
+- [packages](packages.md)
+- [plugin](plugin/README.md)
 
 ## vimrc from scratch
 
@@ -58,4 +59,27 @@ Check the settings:
 :echo $MYVIMRC # ~/.vim/vimrc
 :edit $MYVIMRC
 ```
+
+---
+
+## Runtime files
+
+- filetype.vim: filetypes by file name
+- scripts.vim: filetypes by file contents
+- autoload/: automatically loaded scripts
+- colors/: color scheme files
+- compiler/: compiler files
+- doc/: documentation 
+- ftplugin/: filetype plugins
+- import/: files that are found by :import
+- indent/: indent scripts 
+- keymap/: key mapping files
+- lang/: menu translations
+- menu.vim: GUI menus
+- pack/: packages
+- plugin/: plugin scripts
+- print/: files for printing
+- spell/: spell checking files
+- syntax/: syntax files
+- tutor/: files for vimtutor
 

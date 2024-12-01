@@ -1,4 +1,4 @@
-# Packages and Plugins
+# Packages
 
 - :h [usr_05.txt](https://vimhelp.org/usr_05.txt.html)
   - :h [add-package](https://vimhelp.org/usr_05.txt.html#add-package)
@@ -60,27 +60,4 @@ call plug#end()
 :PlugStatus
 :PlugDiff
 ```
-
----
-
-## Runtime files
-
-- filetype.vim: filetypes by file name
-- scripts.vim: filetypes by file contents
-- autoload/: automatically loaded scripts
-- colors/: color scheme files
-- compiler/: compiler files
-- doc/: documentation 
-- ftplugin/: filetype plugins
-- import/: files that are found by :import
-- indent/: indent scripts 
-- keymap/: key mapping files
-- lang/: menu translations
-- menu.vim: GUI menus
-- pack/: packages
-- plugin/: plugin scripts
-- print/: files for printing
-- spell/: spell checking files
-- syntax/: syntax files
-- tutor/: files for vimtutor
 

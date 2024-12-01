@@ -8,7 +8,9 @@ endif
 " source $VIMRUNTIME/defaults.vim
 source $HOME/.vim/defaults.vim
 source $HOME/.vim/defaults.base.vim
-source $HOME/.vim/defaults.local.vim
+if filereadable(expand('$HOME/.vim/defaults.local.vim'))
+  source $HOME/.vim/defaults.local.vim
+endif
 
 if has("vms")
   set nobackup		" do not keep a backup file, use versions instead

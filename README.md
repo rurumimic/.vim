@@ -28,24 +28,28 @@ vim +PlugStatus +PlugInstall +PlugUpdate
 
 ## Code
 
+- after/
+  - [plugin/](after/plugin)
 - autoload/
   - [plug.vim](autoload/plug.vim)
-- [defaults.vim](/defaults.vim)
-- docs/
-- [keymap.vim](/keymap.vim)
+- [defaults.vim](defaults.vim), [defaults.base.vim](defaults.base.vim), defaults.local.vim
+- [docs/](docs/README.md)
+- [keymap.vim](keymap.vim)
 - plugged/
+- plugin/
+  - [clipboard.vim](plugin/clipboard.vim)
 - README.md
-- [vimrc](/vimrc)
+- [vimrc](vimrc)
 
 ---
 
 ## Documentation
 
-- [docs](/docs/README.md)
-  - [install](/docs/install.md)
-  - [defaults](defaults.md)
-  - [keymap](/docs/keymap.md)
-  - [starting](/docs/starting.md)
-  - [packages and plugins](/docs/packages.md)
-  - [autoload](docs/autoload.md)
+- [docs](docs/README.md)
+  - [install](docs/install.md)
+  - [defaults](docs/defaults.md)
+  - [keymap](docs/keymap.md)
+  - [starting](docs/starting.md)
+  - [packages](docs/packages.md)
+  - [plugin](docs/plugin/README.md)
 

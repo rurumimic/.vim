@@ -15,20 +15,19 @@ defaults.local.vim
 ```vim
 source $HOME/.vim/defaults.vim
 source $HOME/.vim/defaults.base.vim
-source $HOME/.vim/defaults.local.vim
+if filereadable(expand('$HOME/.vim/defaults.local.vim'))
+  source $HOME/.vim/defaults.local.vim
+endif
 ```
 
 ### defaults.base.vim
 
-```vim
-set nowrap
-
-let g:vim_lsp_enabled = 0 " 0: Disable, 1: Enable 
-```
+- vi [deafults.base.vim](../defaults.base.vim)
 
 ### defaults.local.vim
 
-```vim
-let g:vim_lsp_enabled = 1 " 0: Disable, 1: Enable 
+```bash
+copy defaults.sample.vim defaults.local.vim
+vi defaults.local.vim
 ```
 
