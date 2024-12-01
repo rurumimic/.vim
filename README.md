@@ -18,6 +18,13 @@ cd $HOME
 git clone https://github.com/rurumimic/.vim
 ```
 
+### Edit Options
+
+```bash
+cp $HOME/defaults.sample.vim $HOME/defaults.local.vim
+vi $HOME/defaults.local.vim
+```
+
 ### Install Plugins
 
 ```bash
