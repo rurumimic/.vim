@@ -36,8 +36,7 @@ vim +PlugStatus +PlugInstall +PlugUpdate
 - [docs/](docs/README.md)
 - [keymap.vim](keymap.vim)
 - plugged/
-- plugin/
-  - [clipboard.vim](plugin/clipboard.vim)
+- [plugin/](plugin/)
 - README.md
 - [vimrc](vimrc)
 
