@@ -7,6 +7,7 @@
 - [starting](starting.md)
 - [packages](packages.md)
 - [plugin](plugin/README.md)
+- [colors](colors.md)
 
 ## vimrc from scratch
 

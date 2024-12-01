@@ -39,6 +39,7 @@ vim +PlugStatus +PlugInstall +PlugUpdate
   - [plugin/](after/plugin)
 - autoload/
   - [plug.vim](autoload/plug.vim)
+- [colors/](colors/)
 - [defaults.vim](defaults.vim), [defaults.base.vim](defaults.base.vim), defaults.local.vim
 - [docs/](docs/README.md)
 - [keymap.vim](keymap.vim)
@@ -58,4 +59,5 @@ vim +PlugStatus +PlugInstall +PlugUpdate
   - [starting](docs/starting.md)
   - [packages](docs/packages.md)
   - [plugin](docs/plugin/README.md)
+  - [colors](docs/colors.md)
 
