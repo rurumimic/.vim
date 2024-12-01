@@ -7,6 +7,8 @@ endif
 " Get the defaults that most users want.
 " source $VIMRUNTIME/defaults.vim
 source $HOME/.vim/defaults.vim
+source $HOME/.vim/defaults.base.vim
+source $HOME/.vim/defaults.local.vim
 
 if has("vms")
   set nobackup		" do not keep a backup file, use versions instead

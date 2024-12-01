@@ -1,10 +1,11 @@
 # Documentation
 
 - vimrc from scratch
-- [install](/docs/install.md)
-- [keymap](/docs/keymap.md)
-- [starting](/docs/starting.md)
-- [packages and plugins](/docs/packages.md)
+- [install](install.md)
+- [defaults](defaults.md)
+- [keymap](keymap.md)
+- [starting](starting.md)
+- [packages and plugins](packages.md)
 
 ## vimrc from scratch
 

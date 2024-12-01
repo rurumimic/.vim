@@ -42,8 +42,8 @@ vim +PlugStatus +PlugInstall +PlugUpdate
 ## Documentation
 
 - [docs](/docs/README.md)
-  - vimrc from scratch
   - [install](/docs/install.md)
+  - [defaults](defaults.md)
   - [keymap](/docs/keymap.md)
   - [starting](/docs/starting.md)
   - [packages and plugins](/docs/packages.md)

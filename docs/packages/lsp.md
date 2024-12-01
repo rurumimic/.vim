@@ -4,10 +4,14 @@
 
 ## Add Plugin
 
+- docs/[defaults.md](../defaults.md)
+
 ```vim
 call plug#begin()
 
+if exists('g:vim_lsp_enabled') && g:vim_lsp_enabled == 1
 Plug 'prabirshrestha/vim-lsp'
+endif
 
 call plug#end()
 ```
@@ -17,6 +21,10 @@ call plug#end()
 vim [~/.vim/after/plugin/lsp.vim](../../after/plugin/lsp.vim)
 
 ```vim
+if exists('g:vim_lsp_enabled') && g:vim_lsp_enabled == 0 
+    finish
+endif
+
 function! s:on_lsp_buffer_enabled() abort
     setlocal omnifunc=lsp#complete
     setlocal signcolumn=yes

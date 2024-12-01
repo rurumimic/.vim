@@ -1,10 +1,14 @@
-" if executable('lspserver')
-"     au User lsp_setup call lsp#register_server({
-"         \ 'name': 'lspserver',
-"         \ 'cmd': {server_info->['lspserver']},
-"         \ 'allowlist': ['language'],
-"         \ })
-" endif
+if exists('g:vim_lsp_enabled') && g:vim_lsp_enabled == 0 
+    finish
+endif
+
+"" if executable('lspserver')
+""     au User lsp_setup call lsp#register_server({
+""         \ 'name': 'lspserver',
+""         \ 'cmd': {server_info->['lspserver']},
+""         \ 'allowlist': ['language'],
+""         \ })
+"" endif
 
 if executable('rust-analyzer')
   au User lsp_setup call lsp#register_server({

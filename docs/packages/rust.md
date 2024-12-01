@@ -17,10 +17,20 @@ call plug#end()
 - rust-analyzer
   - [rustup](https://rust-analyzer.github.io/manual.html#rustup)
 
+### rustup
+
 ```bash
 rustup update
 rustup component add rust-analyzer
 ```
+
+### Arch Linux
+
+```bash
+sudo pacman -S rust-analyzer
+```
+
+### rust-analyzer version
 
 ```bash
 rust-analyzer --version
