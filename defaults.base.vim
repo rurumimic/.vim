@@ -1,5 +1,9 @@
 set nowrap
 set nu rnu " number relativenumber
+set autoindent
+set cindent
+set smartindent
+set shiftwidth=2
 
 " :h terminal-options
 let &t_SI = "\<ESC>[6 q" " vertical bar cursor
