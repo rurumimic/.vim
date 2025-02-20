@@ -34,9 +34,9 @@ Edit: [~/.vim/keymap.vim](/keymap.vim)
 #### Insert Mode
 
 - `CTRL-H`: move left
-- `CTRL-J`: move down 
+- `CTRL-J`: move down
 - `CTRL-K`: move up
-- `CTRL-L`: move right 
+- `CTRL-L`: move right
 
 #### Normal Mode
 
@@ -58,4 +58,15 @@ nnoremap <Space>h :below 8split \| terminal ++curwin<CR>
 ```vim
 nnoremap <Space>v :rightbelow 8vsplit \| terminal ++curwin<CR>
 ```
+
+---
+
+## Tips
+
+### Substitute
+
+#### Replace the selection
+
+1. `v` + `y` to copy the selection
+2. `:%s/<C-r>"/new/g` to replace the selection
 
